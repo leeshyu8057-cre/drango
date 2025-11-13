@@ -1,0 +1,7 @@
+Hidden Django admin URL:
+
+http://127.0.0.1:8000/nebula-console/
+cd chem_site/bioweb
+./venv/bin/python manage.py createsuperuser
+
+更新 `chem_site/bioweb/bioweb/urls.py` 時，如需更換路徑請同步更新此檔。
